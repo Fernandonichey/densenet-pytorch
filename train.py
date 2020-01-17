@@ -12,7 +12,7 @@ import torch.optim as optim
 
 
 from load_data import train_dataloader,train_datasets
-from models.densenet import densenet169
+from models.densenet import densenet121
 import cfg
 
 
@@ -45,7 +45,7 @@ if not os.path.exists(args.save_folder):
 
 #####build the network model
 
-model = densenet169(num_classes=cfg.NUM_CLASSES)
+model = densenet121(num_classes=cfg.NUM_CLASSES)
 
 #打印模型架构
 print(model)
