@@ -1,3 +1,5 @@
+**注意：** 这个仓库的代码是我去年刚学pytorch时写的，写的不好，准备废弃，最近新写了一个完整的利用pytorch实现的图像分类的代码， 请移步 [https://github.com/lxztju/pytorch_classification](https://github.com/lxztju/pytorch_classification) 获取新的图像分类代码
+
 # pytorch训练自己的图像分类数据集
 
 这是一个从头开始训练自己的图像数据集的pytorch应用，对于初学者来说一个很好的学习实践pytorch的应用案例，
